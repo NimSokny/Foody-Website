@@ -1,0 +1,24 @@
+body{
+    .yy{
+        margin-bottom: 10vh;
+    }
+    .content-yy {
+        background: url('/img-one/10.png') no-repeat center center;
+        background-size: cover;
+        @include font-size;
+
+        .organic-yy {
+            font-size: 70px;
+            font-weight: bold;
+            color: white;
+            padding: 30vh 10vh 0vh 80vh;
+            border-radius: 10px;
+
+        }
+
+        .text-yy {
+            margin: 5vh 0vh 0vh 82vh;
+            color: white;
+        }
+    }
+}

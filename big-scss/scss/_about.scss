@@ -1,0 +1,55 @@
+* {
+    body {
+
+        .content-on {
+            background: url('/img-one/7.png') no-repeat center center;
+            background-size: cover;
+            @include font-size;
+
+            .organic-on {
+                font-size: 70px;
+                font-weight: bold;
+                color: white;
+                padding: 30vh 10vh 0vh 20vh;
+                border-radius: 10px;
+
+            }
+
+            .text-on {
+                margin: 5vh 0vh 0vh 20vh;
+                color: white;
+            }
+        }
+
+        .ss {
+            margin-bottom: 15vh;
+
+            .visit {
+                background-color: #06c60d;
+                height: 50vh;
+                @include flex-row;
+                justify-content: space-between;
+                padding: 0vh 10vh 0vh 10vh;
+                color: white;
+
+                .visit-our {
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-bottom: 2vh;
+                }
+
+                .L {
+                    padding: 20px 50px 20px 50px;
+                    @include border;
+                    font-size: 15px;
+                    background-color: red;
+                    color: white;
+
+                    &:hover {
+                        background-color: #04f70c;
+                    }
+                }
+            }
+        }
+    }
+}

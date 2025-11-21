@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+
+    .content-k {
+        background: url('/img-one/8.png') no-repeat center center;
+        background-size: cover;
+        @include font-size;
+
+        .organic-k {
+            font-size: 70px;
+            font-weight: bold;
+            color: rgb(5, 236, 5);
+            padding: 30vh 10vh 0vh 20vh;
+            border-radius: 10px;
+
+        }
+
+        .text-k {
+            margin: 5vh 0vh 0vh 21vh;
+            color: white;
+        }
+    }
+
+    .load {
+        background-color: #04f70c;
+        @include border;
+        padding: 13px 28px 13px 28px;
+        margin: 5vh 0vh 0vh 95vh;
+        color: white;
+        font-size: 15px;
+
+        &:hover {
+            background-color: rgb(250, 11, 11);
+            cursor: pointer;
+        }
+    }
+}

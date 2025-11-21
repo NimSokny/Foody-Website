@@ -1,0 +1,24 @@
+body{
+    .ff{
+        margin-bottom: 10vh;
+    }
+    .content-kk {
+        background: url('/img-one/8.png') no-repeat center center;
+        background-size: cover;
+        @include font-size;
+
+        .organic-kk {
+            font-size: 70px;
+            font-weight: bold;
+            color: #04f70c;
+            padding: 30vh 10vh 0vh 20vh;
+            border-radius: 10px;
+
+        }
+
+        .text-kk {
+            margin: 5vh 0vh 0vh 21vh;
+            color: white;
+        }
+    }
+}

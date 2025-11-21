@@ -1,0 +1,23 @@
+.vv {
+    margin-bottom: 20vh;
+}
+
+.content-in {
+    background: url('/img-one/6.png') no-repeat center center;
+    background-size: cover;
+    @include font-size;
+
+    .organic-in {
+        font-size: 70px;
+        font-weight: bold;
+        color: white;
+        padding: 30vh 10vh 0vh 130vh;
+        border-radius: 10px;
+
+    }
+
+    .text-in {
+        margin: 5vh 0vh 0vh 131vh;
+        color: white;
+    }
+}
